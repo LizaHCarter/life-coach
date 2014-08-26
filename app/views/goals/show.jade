@@ -1,0 +1,10 @@
+extends ../shared/template
+block content
+  .row
+    .col-xs-12
+      h2#goal GOAL: #{goal.name}
+  .row
+    .col-xs-3
+      h4 DUE: #{goal.due}
+      h4 TAGS: #{goal.tags}
+
